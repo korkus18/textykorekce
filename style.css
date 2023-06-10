@@ -1,0 +1,162 @@
+p{
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  font-weight: 400;
+  margin: 0px;
+  word-spacing: 4px;
+}
+h2{
+  font-size: 35px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+}
+h1{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.hero-1{
+  background-image: url('assets/young-concentrated-businesswoman-glasses-striped-shirt-working-with-papers-home.jpg');
+  background-size: cover;
+  height: 75vh;
+  display: flex;
+  align-items: flex-end;
+}
+.hero-1 .content{
+  width: 50vw;
+  margin: 30vh 0vw 0vw 10vw
+}
+.hero-1 H1{
+  color:#f19226;
+}
+.hero-1 H2{
+  color:#f19226;
+}
+.hero-1 button{
+  color:#fff;
+  background-color: #f19226;
+  border-radius: 10px;
+  padding:10px 60px;
+  font-size: 20px;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  font-weight: 500;
+  word-spacing: 4px;
+  margin-top:8vw;
+  margin-bottom: 6vh;
+}
+
+
+
+.section-1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.section-1 .leva {
+  flex: 50;
+  padding:40px;
+  background-color: #7e706d;
+  color: #fff;
+  line-height: 1.5;
+  display: flex;
+  gap:20px;
+  flex-direction: column;
+}
+.section-1 .prava{
+  flex: 50
+}
+.section-1 .prava img{
+  width: 50vw;
+  padding: 0px;
+  height: 400px;
+  object-fit: cover;
+}
+
+
+
+
+
+.section-2{
+  background-color: #dc4a34;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.section-3 {
+  background-image: url('assets/successful-computer-gadget-digital-close.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-3 .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.section-3 .card {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 20vh;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.section-3 svg {
+  fill: #333;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.section-4 .prava {
+  flex: 50;
+  padding:40px;
+  background-color: #f29326;
+  color: #fff;
+  line-height: 1.5;
+  display: flex;
+  gap:20px;
+  flex-direction: column;
+}
+.section-4 .leva{
+  flex: 50
+}
+.section-4 .leva img{
+  width: 50vw;
+  padding: 0px;
+  height: 400px;
+  object-fit: cover;
+}
