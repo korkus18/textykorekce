@@ -20,6 +20,28 @@ h1{
     font-size: 45px;
 }
 
+
+
+.header{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  position: absolute;
+  z-index: 99;
+}
+.header .column-logo{
+  width: 30vw;
+
+}
+.header .column-navbars{
+  display: flex;
+  width: 70vw;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 2vw;
+}
+
+
 .hero-1{
   background-image: url('assets/young-concentrated-businesswoman-glasses-striped-shirt-working-with-papers-home.jpg');
   background-size: cover;
@@ -93,41 +115,33 @@ h1{
   padding: 20px;
 }
 
+
 .section-3 {
   background-image: url('assets/successful-computer-gadget-digital-close.jpg');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 80px;
 }
 
-.section-3 .container {
+.section-3 .row {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  justify-content: space-between;
+  
 }
 
 .section-3 .card {
-  background-color: #fff;
-  padding: 20px;
-  text-align: center;
-  width: 20vh;
+  width: 23%;
+  background-color: #ffffff;
+  padding: 30px;
+  padding-bottom: 80px;
   margin-bottom: 20px;
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  color:#7f716e;
+  
 }
-
-.section-3 svg {
-  fill: #333;
-  margin: 0;
-}
-
-
-
-
-
-
 
 
 
@@ -159,4 +173,50 @@ h1{
   padding: 0px;
   height: 400px;
   object-fit: cover;
+}
+
+
+
+
+.footer{
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  color:#6a696a;
+  gap: 8vw;
+  padding: 4vh;
+}
+.footer .nadpis{
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+.footer .column-nabidka{
+  gap:3px;
+  display: flex;
+  flex-direction: column;
+}
+.footer img{
+  background-color: #686767;
+  padding: 10px;
+}
+
+
+
+.hero-2{
+  background-image: url('assets/close-up-male-hands-using-laptop-home_1150-790.jpg');
+  background-size: cover;
+  height: 75vh;
+  display: flex;
+  align-items: flex-end;
+}
+.hero-2 .content{
+  width: 75vw;
+  margin: 30vh 0vw 20vw 10vw
+}
+.hero-2 H1{
+  color:#f19226;
+}
+.hero-2 H2{
+  color:#f19226;
 }
