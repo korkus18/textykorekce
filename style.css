@@ -295,3 +295,76 @@ h1{
   margin: 5px;
   font-weight: 300;
 }
+
+
+.hero-3{
+  background-image: url('assets/andrew-neel-cckf4TsHAuw-unsplash.jpg');
+  background-size: cover;
+  height: 75vh;
+  display: flex;
+}
+.hero-3 .content{
+  margin: 40vh 35vw 10vw 10vw
+}
+.hero-3 H1{
+  color:#f19226;
+}
+.hero-3 H2{
+  color:#f19226;
+}
+
+
+.section-7{
+  display: flex;
+  flex-direction: column;
+  margin: 2vh 5vw;
+
+}
+.section-7 .content{
+  display: flex;
+  flex-direction: column;
+}
+.section-7 .content H2{
+  font-size: 35px;
+  color:  #686767 !important;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.section-7 .content p{
+  font-size: 23px;
+  color:  #686767 !important;
+}
+.section-7 .content .list{
+  display: flex;
+  flex-direction: row;
+  margin: 25px 0;
+
+}
+.section-7 .content .list .leva{
+  display: flex;
+  flex-direction: column;
+
+  border-right: solid #000 2px;
+  width: 30%;
+  justify-content: space-between;
+
+}
+.section-7 .content .list .leva p{
+  color:#f19226 !important;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 20px 20px 0;
+}
+.section-7 .content .list .prava{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: space-between;
+}
+.section-7 .content .list .prava p{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px 10px 20px;
+}
+
+
