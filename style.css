@@ -326,13 +326,13 @@ h1{
 }
 .section-7 .content H2{
   font-size: 35px;
-  color:  #686767 !important;
+  color:  #7c7c7c !important;
   font-weight: 700;
   margin: 20px 0;
 }
 .section-7 .content p{
   font-size: 23px;
-  color:  #686767 !important;
+  color:  #7c7c7c !important;
 }
 .section-7 .content .list{
   display: flex;
@@ -368,3 +368,48 @@ h1{
 }
 
 
+.hero-4{
+  background-image: url('assets/portrait-business-woman-working-laptop.jpg');
+  background-size: cover;
+  height: 75vh;
+  display: flex;
+}
+.hero-4 .content{
+  margin: 40vh 50vw 10vw 10vw
+}
+.hero-4 H1{
+  color:#f19226;
+  font-size: 55px;
+  font-weight: 400;
+}
+.section-8{
+  display: flex;
+  flex-direction: column;
+  margin: 2vh 5vw;
+}
+.section-8 .content{
+  display: flex;
+  flex-direction: column;
+}
+.section-8 .content H2{
+  font-size: 35px;
+  color:  #f19226 !important;
+  font-weight: 400;
+  margin: 20px 0;
+}
+.section-8 .content p{
+  font-size: 23px;
+  color:  #7c7c7c !important;
+}
+.section-8 .content table {
+  border-collapse: collapse;
+}
+
+.section-8 .content table td {
+  padding: 0;
+}
+
+.section-8 .content table td img {
+  border: none;
+  width: 12vw;
+}
